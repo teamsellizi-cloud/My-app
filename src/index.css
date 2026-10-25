@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+html { scroll-behavior: smooth; }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes popIn { from { opacity: 0; transform: scale(.92) translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes slideDown { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+@keyframes pageIn { from { opacity: 0; transform: translateY(8px); filter: blur(2px); } to { opacity: 1; transform: none; filter: none; } }
+@keyframes splash { 0% { opacity: 1; } 80% { opacity: 1; } 100% { opacity: 0; visibility: hidden; } }
+@keyframes draw { from { stroke-dashoffset: 120; } to { stroke-dashoffset: 0; } }
+
+@keyframes blob { 0%,100% { border-radius: 42% 58% 60% 40%; scale: 1; } 33% { border-radius: 60% 40% 35% 65%; scale: 1.15; } 66% { border-radius: 35% 65% 55% 45%; scale: .9; } }
+@keyframes logoIn { 0% { opacity: 0; transform: scale(.3) rotate(-25deg); filter: blur(12px); } 70% { transform: scale(1.08) rotate(3deg); filter: blur(0); } 100% { opacity: 1; transform: none; } }
+@keyframes letterIn { from { opacity: 0; letter-spacing: .5em; filter: blur(8px); } to { opacity: 1; letter-spacing: -0.025em; filter: none; } }
+@keyframes lineGrow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes wipeIn { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+@keyframes wipeOut { from { transform: scaleY(1); } to { transform: scaleY(0); } }
+.page-enter { animation: pageIn .3s cubic-bezier(.2,.8,.2,1) both; }
+
+/* Global compact scale: everything is rem-based, so this shrinks the whole UI proportionally */
+html { font-size: 14px; }
+@media (min-width: 768px) { html { font-size: 14.5px; } }
+@media (min-width: 1280px) { html { font-size: 15px; } }
+body { -webkit-font-smoothing: antialiased; }

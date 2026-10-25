@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-DOMAIN.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/home</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/services</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/portfolio</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/team</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/partners</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/contact</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/booking</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/partnership</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/reviews</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/support</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/privacy</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/legal</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/terms</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/cookies</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/#/accessibility</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+</urlset>
